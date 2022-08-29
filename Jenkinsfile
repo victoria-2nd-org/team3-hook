@@ -10,7 +10,7 @@ pipeline {
  		stage('2-make a right'){
  			steps{
  				sh  'echo "walk.."'
-				sh 'lscpu'
+				sh 'ls'
  			}
  		}
  		stage('3-make another left'){
